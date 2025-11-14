@@ -1,16 +1,17 @@
 {
   "name": "web-server",
   "version": "1.0.0",
-  "description": "",
+  "description": "Secure Node.js web dashboard with API Key, logs, and visitor counter",
   "main": "index.js",
+  "type": "commonjs",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js"
   },
   "keywords": [],
-  "author": "",
+  "author": "YourName",
   "license": "ISC",
-  "type": "commonjs",
   "dependencies": {
-    "express": "^5.1.0"
+    "express": "^5.1.0",
+    "express-session": "^1.17.3"
   }
 }
